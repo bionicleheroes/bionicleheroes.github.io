@@ -41,6 +41,7 @@ a:hover {
 	background-color: #54c967;
 }
 
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -96,6 +97,7 @@ header {
 	color: #35810c;
 }
 
+
 .about {
 	float: right;
 	font-size: 1.9em;
@@ -107,7 +109,6 @@ header {
 	color: #e17109;
 	background-color: #f89d57;
 }
-
 
 /*Блок стилей для меню*/
 
@@ -139,6 +140,7 @@ header {
 	font-family: 'Russo One', sans-serif;
 	letter-spacing: 1px;
 	font-size: 20px
+		
 }
 
 
@@ -150,22 +152,21 @@ header {
 
 
 /*Конец меню*/
-
 #description {
 	text-align: center;
 	margin-top: 30px;
 	font-family: 'Russo One', sans-serif;
 	color: #f3f3f5;
 	letter-spacing: 0.4px
+	
 }
-
 #BionicleRu {
 	font-family: 'Russo One', sans-serif;
 	color: #4186a8;
 	letter-spacing: 1.58px;
 	font-size: 26px;
+		
 }
-
 
 /*Начало центра и статей*/
 
@@ -178,55 +179,49 @@ header {
 	box-sizing: border-box;
 	border-radius: 5px;
 	background-color: #ffffff;
-	height: 1500px;
+	height: 650px;
 	margin-left: 303px;
 }
+#article-1 #nuparu {
+	text-align: center;
+	font-family: 'Russo one', sans-serif;
+	color: grey;
+	margin-top: 10px
+}
 
+#article-1 .disk {
+	padding: 16px;
+	color: #e17109;
+	font-family: 'Russo one', sans-serif;
+}
+#article-1 #discrip {
+	text-align: center;
+	font-family: 'Russo one', sans-serif;
+	color: #e17109;
+}
+#article-1 .bold {
+	color: #8c8c8c;
+}
+#article-1 #history {
+	text-align: left;
+	font-family: 'Russo one', sans-serif;
+	color: #8c8c8c;
+	padding: 20px;
+	line-height: 25px
+}
 #article-1 img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
-#article-1 #mata-nui-map {
-	height: 550px;
-	width: 800px
+#article-1 #Makuta {
+	height: 456px
 }
-
-#article-1 #mata-nui {
-	text-align: center;
-	font-family: 'Russo one', sans-serif;
-	color: #15b4e9;
-	margin-top: 10px;
-	letter-spacing: 1px
+#article-1 #mask-of-creation-text {
+	height: 400px;
 }
-
-#article-1 #gigant {
-	height: 500px;
-	width: 650px
-}
-
-#article-1 #description-mata-nui {
-	font-family: 'Russo One', sans-serif;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	line-height: 26px;
-	color: #8c8c8c;
-}
-
-#article-1 #description-mata-nui-1 {
-	font-family: 'Russo One', sans-serif;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	line-height: 26px;
-	color: #8c8c8c;
-}
-
-
 /*Начало фото-панорамы*/
 
 #main_soc_block {
@@ -243,6 +238,7 @@ header {
 	height: 200px;
 	margin-top: 200px
 }
+
 
 
 /*Конец фото-панорамы*/
