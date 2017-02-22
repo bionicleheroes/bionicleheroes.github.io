@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	height: 100%;
 	color: #333;
-	background-image: url(../images/background-city-flhd-1.png);
+	background-image: url(../images/);
 	font-size: 1em;
 	font-family: "Segoe UI", sans-serif;
 	line-height: 135%
@@ -38,7 +38,7 @@ a {
 
 a:hover {
 	color: #e17109;
-	background-color: #54c967;
+	background-color: #e9a571;
 }
 
 img {
@@ -93,7 +93,7 @@ header {
 #logo {
 	font-size: 2em;
 	font-family: 'Russo One', sans-serif;
-	color: #35810c;
+	color: #e17109;
 }
 
 
@@ -106,7 +106,7 @@ header {
 
 .about:hover {
 	color: #e17109;
-	background-color: #f89d57;
+	background-color: #e9a571;
 }
 
 
@@ -135,7 +135,7 @@ header {
 #menuHrefs a {
 	padding: 7px;
 	border-radius: 5px;
-	margin-left: 27.3px;
+	text-align: center;
 	color: #e17109;
 	font-family: 'Russo One', sans-serif;
 	letter-spacing: 1px;
@@ -157,7 +157,7 @@ header {
 	margin-top: 30px;
 	font-family: 'Russo One', sans-serif;
 	color: #f3f3f5;
-	letter-spacing: 0.4px
+	letter-spacing: 0.4px;
 }
 
 #BionicleRu {
@@ -395,7 +395,7 @@ header {
 	margin: 20px 0;
 	float: left;
 	/*Картинка к центр.блоку*/
-	background: url('../images/additive-3.png') repeat-x center 0;
+	background: url('../images/additive-6.png') repeat-x center 0;
 	/*Повторение только по оси Х*/
 	height: 200px;
 	margin-top: 390px

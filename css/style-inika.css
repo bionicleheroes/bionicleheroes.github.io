@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	height: 100%;
 	color: #333;
-	background-image: url(../images/background-city-flhd-1.png);
+	background-image: url(../images/additive-6.png);
 	font-size: 1em;
 	font-family: "Segoe UI", sans-serif;
 	line-height: 135%
@@ -38,7 +38,7 @@ a {
 
 a:hover {
 	color: #e17109;
-	background-color: #54c967;
+	background-color: #e9a571;
 }
 
 
@@ -89,14 +89,14 @@ footer {
 
 header {
 	border-bottom: 2px solid silver;
-	padding: 1%''
+	padding: 1%;
 }
 
 #menu {}
 #logo {
 	font-size: 2em;
 	font-family: 'Russo One', sans-serif;
-	color: #35810c;
+	color: #e17109;
 }
 
 
@@ -109,7 +109,7 @@ header {
 
 .about:hover {
 	color: #e17109;
-	background-color: #f89d57;
+	background-color: #e9a571;
 }
 
 /*Блок стилей для меню*/
@@ -137,7 +137,7 @@ header {
 #menuHrefs a {
 	padding: 7px;
 	border-radius: 5px;
-	margin-left: 27.3px;
+	text-align: center;
 	color: #e17109;
 	font-family: 'Russo One', sans-serif;
 	letter-spacing: 1px;
@@ -165,6 +165,7 @@ header {
 	width: 50%;
 	margin-top: 20px;
 	margin-left: 431px;
+	
 }
 
 #wrapper #articles {
@@ -257,10 +258,13 @@ header {
 	margin: 20px 0;
 	float: left;
 	/*Картинка к центр.блоку*/
-	background: url('../images/additive-3.png') repeat-x center 0;
+	background: url('../images/additive-6.png') repeat-x center 0;
 	/*Повторение только по оси Х*/
 	height: 200px;
 	margin-top: 40px
+}
+#wrapper #articles .paragraph {
+	text-align: center;
 }
 
 #Nuparu{
@@ -296,7 +300,6 @@ header {
 	font-size: 1.1em;
 	font-weight: normal;
 	color: black;
-	margin-left: 21.6%;
 	margin-top: 5px;
 }
 #Nuparu img{
@@ -355,7 +358,6 @@ header {
 	font-family: 'Russo One', sans-serif;
 	color: gold;
 	margin-top: 6px;
-	margin-left: 34.5%;
 }
 #Jaller img{
 
@@ -411,7 +413,6 @@ header {
 	font-size: 1.1em;
 	font-weight: normal;
 	color: black;
-	margin-left: 22.4%;
 	margin-top: 5px;
 }
 #Kongu img{
@@ -469,7 +470,6 @@ header {
 	font-size: 1.1em;
 	font-weight: normal;
 	color: black;
-	margin-left: 23.5%;
 	margin-top: 5px;
 }
 #Matoro img{
@@ -526,7 +526,6 @@ header {
 	font-size: 1.1em;
 	font-weight: normal;
 	color: black;
-	margin-left: 24%;
 	margin-top: 5px;
 }
 #Hahli img{
@@ -583,7 +582,6 @@ header {
 	font-size: 1.1em;
 	font-weight: normal;
 	color: black;
-	margin-left: 5.6%;
 	margin-top: 5px;
 }
 #Hewkki img{
