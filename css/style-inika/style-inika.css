@@ -1,0 +1,615 @@
+@charset "utf-8";
+
+/* * - означает, что св-ва применяются ко всему документу*/
+
+* {
+	/*Удаление отступа выше хедера*/
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background-image: url(../images/additive-6.png);
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%
+}
+
+
+/* Блок стилей ссылки*/
+
+a {
+	color: #e17109;
+	text-decoration: none;
+	transition: all.6s ease;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/*Блок стилей ссылки при наведении курсора*/
+
+a:hover {
+	color: #e17109;
+	background-color: #e9a571;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	/* Корректное отображение для explorer*/
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid silver;
+	padding: 0;
+}
+
+
+/*До этой строки были глобальные стили*/
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clear {
+	clear: both
+}
+
+
+/*Блок стилей выделения курсором*/
+
+::selection {
+	background:  #e9a571;
+}
+
+header,
+footer {
+	width: 98%;
+	background-color: #fff;
+	padding: 1%;
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+
+#menu {}
+#logo {
+	font-size: 2em;
+	font-family: 'Russo One', sans-serif;
+	color: #e17109;
+}
+
+
+.about {
+	float: right;
+	font-size: 1.9em;
+	font-family: 'Russo One', sans-serif;
+	margin-top: -4px;
+}
+
+.about:hover {
+	color: #e17109;
+	background-color: #e9a571;
+}
+
+/*Блок стилей для меню*/
+
+#menu {
+	color: #fff;
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.7em;
+	margin-left: 20px
+}
+
+
+/*Нижняя палка для меню*/
+
+#menu hr {
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+
+/*Блок стилей для ссылок в разделах*/
+
+#menuHrefs a {
+	padding: 7px;
+	border-radius: 5px;
+	text-align: center;
+	color: #e17109;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	font-size: 20px
+		
+}
+
+
+/*Обводка для разделов при наведении курсора*/
+
+#menuHrefs a:hover {
+	background-color: #eeedec;
+}
+
+
+/*Конец меню*/
+
+
+/*Начало центра и статей*/
+
+/*Начало Центера и анонсов со статьями*/
+
+#wrapper {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 431px;
+	
+}
+
+#wrapper #articles {
+	float: left;
+	width: 81%;
+	margin-left: 10.3%;
+}
+
+#wrapper #articles article {
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 400px;
+}
+
+
+/*Блок стилей для картинок в центре*/
+
+#wrapper #articles article img {
+	width: 100%;
+	height: 200px;
+	border-radius: 2px 2px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+
+
+/*Блок стилей для заголовков и прочего картинок в центре*/
+
+
+
+#wrapper #articles article h2 {
+	width: 90%;
+	margin-left: 43%;
+	font-weight: normal;
+	font-size: 1.7em;
+	color: black;
+}
+
+#wrapper #articles article h1 {
+	width: 90%;
+	margin-left: 27%;
+	font-weight: normal;
+	font-size: 1em color: #575b57;
+}
+
+
+/*Блок стилей для описания картинок*/
+
+#wrapper #articles article p {
+	width: 80%;
+	margin-left: 30%;
+	text-indent: 3em/*Перемещение первой строки*/
+}
+
+
+/*Блок стилей для ссылкu "Узнать больше"*/
+
+#wrapper #articles article a {
+	padding: 10px 5px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: aliceblue;
+	float: left;
+	margin-top: 231px;
+}
+
+
+/*Эффект при наведении крусора на сслыку "Узнать больше"*/
+
+#wrapper #articles article a:hover {
+	background-color: #fff;
+}
+
+
+/*Центральный блок сайта(Картинка выше футера)*/
+
+
+#wrapper #articles .paragraph {
+	text-align: center;
+}
+
+#Nuparu{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Nuparu h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	color: grey;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+#Nuparu h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+}
+#Nuparu p{
+	width: auto;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+}
+#Nuparu img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Nuparu a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 5%;
+}
+#Nuparu a:hover {
+	background-color: #4186a8;
+}
+#Jaller{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Jaller h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	color: #a02b2b;
+	letter-spacing: 1px;
+	text-align: center;
+}
+#Jaller h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#Jaller p{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	color: gold;
+	margin-top: 6px;
+}
+#Jaller img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Jaller a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 4.5%;
+}
+#Jaller a:hover {
+	background-color:  #4186a8;
+}
+#Kongu{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Kongu h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	color: #35810c;
+	letter-spacing: 1px;
+	text-align: center;
+}
+#Kongu h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#Kongu p{
+	width: auto;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+}
+#Kongu img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Kongu a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 5%;
+}
+#Kongu a:hover {
+	background-color: #4186a8;
+}
+#Matoro{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Matoro h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	color: #a2bcf5;
+	letter-spacing: 1px;
+	text-align: center;
+	
+}
+#Matoro h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#Matoro p{
+	width: auto;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+}
+#Matoro img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Matoro a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 5%;
+}
+#Matoro a:hover {
+	background-color:  #4186a8;
+}
+#Hahli{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Hahli h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	color: #4071cd;
+	text-align: center;
+}
+#Hahli h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#Hahli p{
+	width: auto;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+}
+#Hahli img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Hahli a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 5%;
+}
+#Hahli a:hover {
+	background-color: #4186a8;
+}
+#Hewkki{
+	float: left;
+	width: 31.3333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 2%;
+	min-height: 350px;
+}
+#Hewkki h2{
+	width: auto;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	color: orangered;
+	text-align: center;
+}
+#Hewkki h1{
+	width: auto;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: black;
+	font-family: 'Cuprum', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#Hewkki p{
+	width: auto;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: black;
+	margin-top: 5px;
+}
+#Hewkki img{
+
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+#Hewkki a {
+	padding: 10px 5px;
+	background-color: #e17109;
+	margin-left: 22.7%;
+	border-radius: 5px;
+	/*Закругленные края на фоне у ссылок "Узнать больше"*/
+	color: #fff;
+	float: left;
+	margin-top: 5%;
+}
+#Hewkki a:hover {
+	background-color:  #4186a8;
+}
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	/*Высота ширина*/
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0;
+	float: left;
+	/*Картинка к центр.блоку*/
+	background: url('../../images/additive-6.png') repeat-x center 0;
+	/*Повторение только по оси Х*/
+	height: 200px;
+	margin-top: 40px
+}
+#rights {
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: transparent;
+}

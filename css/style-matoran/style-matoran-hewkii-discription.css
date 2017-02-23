@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+/* * - означает, что св-ва применяются ко всему документу*/
+
+* {
+	/*Удаление отступа выше хедера*/
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%
+}
+
+
+/* Блок стилей ссылки*/
+
+a {
+	color: #e17109;
+	text-decoration: none;
+	transition: all.6s ease;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/*Блок стилей ссылки при наведении курсора*/
+
+a:hover {
+	color: #e17109;
+	background-color: #54c967;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	/* Корректное отображение для explorer*/
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid silver;
+	padding: 0;
+}
+
+
+/*До этой строки были глобальные стили*/
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clear {
+	clear: both
+}
+
+
+/*Блок стилей выделения курсором*/
+
+::selection {
+	background: #e9a571;
+}
+
+header {
+	width: 98%;
+	background-color: #fff;
+	padding: 1%;
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%''
+}
+
+#logo {
+	font-size: 2em;
+	font-family: 'Russo One', sans-serif;
+	color: #35810c;
+}
+
+
+.about {
+	float: right;
+	font-size: 1.9em;
+	font-family: 'Russo One', sans-serif;
+	margin-top: -4px;
+}
+
+.about:hover {
+	color: #e17109;
+	background-color: #f89d57;
+}
+
+/*Блок стилей для меню*/
+
+#menu {
+	color: #fff;
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.7em;
+	margin-left: 20px
+}
+
+
+/*Нижняя палка для меню*/
+
+#menu hr {
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+
+/*Блок стилей для ссылок в разделах*/
+
+#menuHrefs a {
+	padding: 7px;
+	border-radius: 5px;
+	margin-left: 27.3px;
+	color: #e17109;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	font-size: 20px
+		
+}
+
+
+/*Обводка для разделов при наведении курсора*/
+
+#menuHrefs a:hover {
+	background-color: #eeedec;
+}
+
+
+/*Конец меню*/
+#description {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Russo One', sans-serif;
+	color: #f3f3f5;
+	letter-spacing: 0.4px
+	
+}
+#BionicleRu {
+	font-family: 'Russo One', sans-serif;
+	color: #4186a8;
+	letter-spacing: 1.58px;
+	font-size: 26px;
+		
+}
+
+/*Начало центра и статей*/
+
+#wrapper {
+	float: left;
+	width: 1100px;
+	margin-top: 30px;
+	align-content: center;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #ffffff;
+	height: 650px;
+	margin-left: 303px;
+}
+#article-1 #hewkii {
+	text-align: center;
+	font-family: 'Russo one', sans-serif;
+	color: orangered;
+	margin-top: 10px
+}
+
+#article-1 .disk {
+	padding: 16px;
+	color: #e17109;
+	font-family: 'Russo one', sans-serif;
+	margin-left: 50px;
+}
+#article-1 #discrip {
+	text-align: center;
+	font-family: 'Russo one', sans-serif;
+	color: #e17109;
+}
+#article-1 .bold {
+	color: #8c8c8c;
+}
+#article-1 #history {
+	text-align: left;
+	font-family: 'Russo one', sans-serif;
+	color: #8c8c8c;
+	padding: 20px;
+	line-height: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px
+}
+#article-1 img {
+	display: block;
+   margin-left: auto;
+   margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Начало фото-панорамы*/
+
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	/*Высота ширина*/
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0;
+	float: left;
+	/*Картинка к центр.блоку*/
+	background: url('../../images/additive-6.png') repeat-x center 0;
+	/*Повторение только по оси Х*/
+	height: 200px;
+	margin-top: 200px
+}
+
+
+
+/*Конец фото-панорамы*/
+
+#rights {
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: transparent;
+}
