@@ -1,0 +1,44 @@
+
+body{
+  font: 1em/1.6em sans-serif;
+  color: #353535;
+  background-color: #aaa;
+}
+
+a{
+  text-decoration: none;
+}
+.main{
+    max-width: 300px;
+    max-height: 600px;
+    margin: 20px auto;
+}
+/* Стили для слайдера */
+.sl__slide{
+    position: relative;
+}
+.sl__text {
+    position: absolute;
+    bottom: 0;
+    background: rgba( 78, 59, 59, 0.32 );
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    
+}
+.sl__zag, .sl__desc{
+    margin: 0;
+    padding: 0 10px
+}
+
+/*Адаптивность картинок и видео*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+#background {
+   
+    background-color: rgba( 72, 78, 111, 0.32 );
+}
